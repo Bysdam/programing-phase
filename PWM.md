@@ -54,5 +54,5 @@ PWM calculations focus on two main aspects: setting the PWM signal's frequency (
 - **Concept:** The duty cycle is the fraction of one period during which the signal is active (e.g., high). The CCR sets the point in the period where the output changes state.
 ![alt text](DutyCycleCal.png)
 
-**Summary:**  
+**my personal intuition**  
 A PWM signal can be viewed as a timer signal that is shaped or modulated by the CCR to produce the desired pulse width and duty cycle.
