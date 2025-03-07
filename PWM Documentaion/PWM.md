@@ -70,3 +70,10 @@ PWM calculations focus on two main aspects: setting the PWM signal's frequency (
 
 **my personal intuition**  
 A PWM signal can be viewed as a timer signal that is shaped or modulated by the CCR to produce the desired pulse width and duty cycle.
+
+## Practical
+first determine the PWM frequency you want then to practically use the PWM Frequency formula which is shown below
+![alt text](PWMfrequencyFormula.png)  
+**keep in mind what we want, which is to configure the PWM in the wanted frequency** to do that we need proper values of the ***PSC and ARR*** so the equation becomes  
+![alt text](ModifiedEquation.png)  
+from here we can choose a value of either ***PSC or ARR*** and divide the whole equation by it to find the value of the other corrsponidng parameter ***ARR or PSC  respectively*** to achive the wanted frequency.
